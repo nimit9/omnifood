@@ -127,7 +127,7 @@ body {
   border-radius: 9px;
   text-decoration: none;
 
-  transition: background-color 0.3s;
+  transition: all 0.3s;
 }
 
 .btn--primary:link,
@@ -155,4 +155,8 @@ body {
 
 .margin-right-sm {
   margin-right: 2rem;
+}
+
+strong {
+  font-weight: 500;
 }
