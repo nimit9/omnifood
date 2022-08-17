@@ -10,6 +10,7 @@
 
   height: 9.6rem;
   padding: 0 4.8rem;
+  position: relative;
 }
 
 .logo {
@@ -52,6 +53,23 @@
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
   background-color: #cf771f;
+}
+
+.btn-mob-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.btn-mob-icon {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.btn-mob-icon[name="close-outline"] {
+  display: none;
 }
 /* ************************************ */
 /*             HERO COMPONENT           */
